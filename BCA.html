@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course : BCA (Bachelor In Computer Application)</title>
+
+      
+         <style>
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: "Century Gothic", sans-serif;
+                transition: 0.6s;
+            }
+
+            .course {
+                width: 100%;
+                padding: 50px;
+                /* margin: 20px; */
+                text-align: center;
+                color: white;
+                background-image: url(image/thought-catalog-o0Qqw21-0NI-unsplash.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                cursor: pointer;
+                margin-bottom: 30px;
+            }
+
+
+            .col {
+                width: 100%;
+                text-align: center;
+                align-items: center;
+                top: 20px;
+            }
+
+            .col ul {
+                display: inline-block;
+                list-style: none;
+                align-items: center;
+                height: 36px;
+                font-size: 18px;
+              
+            }
+
+            .col li {
+                float: left;
+            }
+
+            .last {
+                margin-right: 50px;
+                text-align: left;
+                color: white;
+            }
+
+            .first {
+                margin-left: 20px;
+            }
+
+            .col a {
+                display: block;
+                padding: 0 28px;
+                color: black;
+                text-decoration: none;
+                line-height: 40px;
+            }
+
+            .col a:hover {
+                color: crimson;
+            }
+
+            .btn {
+                background-color: #8665f7;
+                border-radius: 10px;
+            }
+
+            .btn:hover {
+                background-color: white;
+                border-radius: 10px;
+            }
+
+               /* end of bar */
+
+               /* hero */
+
+            .hero h1 {
+                text-align: center;
+            }
+
+            p {
+                text-align: center;
+                letter-spacing: 1px;
+            }
+            
+           h3 {
+               text-align: center;
+               margin-top: 30px;
+           }
+ 
+         
+
+/* end of hero */
+
+
+
+                /* table */
+     
+    .table-box {
+        margin: 50px auto;
+    }
+    
+    .table-row {
+        display: table;
+        width: 80%;
+        margin: 12px auto;
+        background: transparent;
+        padding: 12px 0;
+        color: #555;
+        font-size: 13px;
+        box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3 );
+    }
+    
+    .table-cell {
+        display: table-cell;
+        width: 20%;
+        text-align: center;
+        padding: 4px 0;
+        border-right: 1px Solid #d6d4d4;
+        vertical-align: middle;
+    }
+     
+    .table-head {
+        background: #8665f7;
+        box-shadow: none;
+        color: #fff;
+        font-weight: 600;
+    }
+    
+    .table-head .table-cell {
+        border-right: none;
+    }
+    
+    .last-cell {
+        border-right: none;
+    }
+    
+    .first-cell {
+        text-align: left;
+        padding-left: 10px;
+    }
+    
+    
+    span {
+        color: red;
+    }
+
+
+    
+    
+    /* end of table */
+
+
+
+    
+
+        
+
+
+   /* footer */
+
+   .container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-right: 30px;
+}
+
+.ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: rgba(22, 21, 21, 0.822);  
+    padding: 70px 0; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    margin-right: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 100px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+}
+
+
+
+
+
+.cr {
+    margin-top: 30px;
+    color: white;
+    background-color: rgba(12, 12, 12, 0.904);
+}
+
+.cr {
+    margin-top: 20px;
+}
+
+span {
+    color: red;
+}
+
+/* end of footer */
+
+
+
+    
+/* pre loader */
+
+#preloader {
+    background: white url(image/untitled-5.gif) no-repeat center center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+/* end of pre loader */
+
+
+         
+         
+         
+         </style>
+
+</head>
+<body>
+
+
+
+ <!-- pre loader -->
+    
+ <div id="preloader"></div>
+
+ <!-- End of pre loader -->
+
+
+
+
+    <div class="course">
+        <h1>COURSES</h1>
+    </div>
+
+    <div class="col">
+        <ul>
+            <li class="last" style="margin: 5px;"><a href="my.html" class="btn">HOME</a></li>
+            <li class="first"><a href="BCA.html">BCA (Under Self Finance Scheme)</a></li>
+            <li class="first"><a href="BSc(Pass course).html">BSc. (Pass Course)</a></li>
+            <li class="first"><a href="BSc(H).html">BSc. (Houners)</a></li>
+        </ul>
+    </div>                               <br><br><br><br><br><br> 
+
+    <div class="hero">
+        <h1 style="background: whitesmoke; margin-bottom: 10px;"><u> BCA (Bachelor of Computer Application)</u></h1>
+        <p>In addition to imparting education in all the science subject the collage also offers self-financed BCA course.</p>
+    
+                <h3>BCA (Bachelor Of Computer Application) :- Seats: 120 Each</h3>
+           
+        
+
+
+ <!-- table -->
+
+ <div class="table-box">
+    <div class="table-row table-head">
+        <div class="table-cell first-cell">
+               <p>Sr.No.</p>
+           </div>
+    
+           <div class="table-cell last-cell">
+            <p>Code No.</p>
+           </div>
+    
+           <div class="table-cell last-cell">
+            <p>Duration :-</p>
+           </div>
+
+           <div class="table-cell last-cell">
+            <p>Medium</p>
+           </div>
+    
+        </div>
+    <!-- 1 -->
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>1</p>
+            </div>
+     
+            <div class="table-cell last-cell">
+             <p>222</p>
+            </div>
+     
+            <div class="table-cell last-cell">
+             <p>Three Years Course</p>
+            </div>
+
+            <div class="table-cell last-cell">
+                <p>English</p>
+               </div>
+     
+        </div>
+
+
+      
+<!-- table2 -->
+
+
+<div class="table-box">
+    <div class="table-row table-head">
+        <div class="table-cell first-cell last-cell">
+               <p>Compulsory Subject</p>
+           </div>
+    
+        </div>
+    <!-- 1 -->
+        <div class="table-row">
+            <div class="table-cell first-cell last-cell">
+                <p>History of Science and Invention</p>
+            </div>
+    
+        </div>
+    
+    <!-- 2 -->
+        <div class="table-row">
+            <div class="table-cell first-cell last-cell">
+                <p>Communication Skills (Lab Cource)</p>
+            </div>
+     
+        </div>
+    <!-- 3 -->
+        <div class="table-row">
+            <div class="table-cell first-cell last-cell">
+                <p>Technical Writing (Lab Cource)</p>
+            </div>
+     
+        </div>
+
+    </div>
+    </div>
+
+
+
+   
+ <!-- footer -->
+
+ <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="http://result.uniraj.ac.in/">Results</a></li>
+                    <li><a href="BCA.html">Courses</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="https://www.uniraj.ac.in/MaharajaCollege/page/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+             <h4>Student Corner</h4>
+             <ul>
+                 <li><a href="syll.html">Syllabus</a></li>
+                 <li><a href="https://www.uniraj.ac.in/MaharajaCollege/page/examination.html">Examination</a></li>
+                 <li><a href="http://result.uniraj.ac.in/">Results</a></li>
+                 <li><a href="https://www.uniraj.ac.in/index.php?mid=3109">Hostal Admition Guidline</a></li>
+             </ul>
+         </div>
+         <div class="footer-col">
+             <h4>About Us</h4>
+             <ul>
+                <li><a href="https://www.uniraj.ac.in/MaharajaCollege/page/overveiw.html">Overveiw</a></li>
+                <li><a href="https://www.uniraj.ac.in/MaharajaCollege/page/director-message.html">Principal</a></li>
+                <li><a href="https://www.uniraj.ac.in/MaharajaCollege/page/vice-principals.html">Vice-Principal</a></li>
+                <li><a href="https://www.uniraj.ac.in/MaharajaCollege/page/principal-former.html">Former-Principle</a></li>
+                <li><a href="https://www.uniraj.ac.in/MaharajaCollege/page/local-heads.html">Local Head</a></li>
+            </ul>
+         </div>
+        </div>
+    </div>
+     <div class="cr">
+         <h4>Copyright 2021 - All Right Reserved - Nitin Verma</h4>
+         <p>Made by -<a href="https://www.instagram.com"> Nitin Verma<span>*</span></p>
+     </div>
+</footer> 
+ 
+<!-- end of footer -->
+
+
+<script>
+
+    var loader = document.getElementById("preloader");
+
+    window.addEventListener("load", function() {
+        loader.style.display = "none";
+    });
+
+   </script>
+
+</body>
+</html>
